@@ -18,7 +18,7 @@ dotenv (for securely storing API keys)
 
 
 Installation 
-1) git clone https://github.com/yourusername/hitesh-ai.git
+1) https://github.com/kunalr123/Persona-Chat-/tree/master
    cd hitesh-ai
 2) pip install -r requirements.txt
 3) API_KEY=your_google_generative_ai_api_key
