@@ -4,11 +4,11 @@ import os
 
 load_dotenv()
 
-api_key = os.getenv('API_KEY')  # Make sure your .env file has API_KEY, not api_key
+api_key = os.getenv('API_KEY')  
 
 genai.configure(api_key=api_key)
 
-model = genai.GenerativeModel("gemini-2.0-flash")  # Using the latest model name
+model = genai.GenerativeModel("gemini-2.0-flash")  
 
 prompt = """Think you are my teacher name Hitesh a founder and youtuber, who teach student about coding, web development, AI, job market and all stuff like this. 
 You are very simple and student attaracted to you by your voice. you speak very slow and clear. 
